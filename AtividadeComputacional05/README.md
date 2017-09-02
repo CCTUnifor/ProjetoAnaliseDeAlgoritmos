@@ -11,9 +11,9 @@
         (soma2) Θ (n²)       
         (soma3) Θ (n)     
 
-* **Passo 5**: (soma1) Θ (n²)
-         (soma2) Θ (n²/4)
-         (soma3) Θ (n)
+* **Passo 5**: (soma1) Θ (n²)      
+         (soma2) Θ (n²/4)      
+         (soma3) Θ (n)      
 
 * **Passo 7**: soma3, soma1, soma2
 
