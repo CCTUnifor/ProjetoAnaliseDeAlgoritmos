@@ -1,6 +1,9 @@
 # Atividade Computacional 05
-## Respostas com mais detalhes no arquivo [AtividadeComputacional05.odt](https://github.com/thiagomaia971/ProjetoAnaliseDeAlgoritmos/blob/master/AtividadeComputacional05/AtividadeComputacional05.odt) (OBS: baixar arquivo para poder visualizar)
+## Arquivos de resposta
+* [AtividadeComputacional05.odt](https://github.com/thiagomaia971/ProjetoAnaliseDeAlgoritmos/blob/master/AtividadeComputacional05/AtividadeComputacional05.odt)
+* [AtividadeComputacional05.ods](https://github.com/thiagomaia971/ProjetoAnaliseDeAlgoritmos/blob/master/AtividadeComputacional05/AtividadeComputacional05.ods)
 
+## Respostas
 * **Passo 3**: soma3, soma2, soma1.
 
 * **Passo 4**: Pelo gráfico:
