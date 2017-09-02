@@ -6,10 +6,10 @@
 ## Respostas
 * **Passo 3**: soma3, soma2, soma1.
 
-* **Passo 4**: Pelo gráfico:
-        (soma1) Θ (n²)
-        (soma2) Θ (n²)
-        (soma3) Θ (n)
+* **Passo 4**: Pelo gráfico: </br>
+        (soma1) Θ (n²)      
+        (soma2) Θ (n²)       
+        (soma3) Θ (n)     
 
 * **Passo 5**: (soma1) Θ (n²)
          (soma2) Θ (n²/4)
