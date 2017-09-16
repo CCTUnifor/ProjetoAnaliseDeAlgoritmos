@@ -122,8 +122,7 @@
 			 T(n) = teta(n)
 		
 * **Passo 7**:
-	Algoritmo:
-		static long potencia3(int a, int b) {
+	Algoritmo: static long potencia3(int a, int b) {
 			if (b == 1)
 				return a;
 			return potencia2(a, b - 1) * a;
