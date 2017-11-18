@@ -24,7 +24,7 @@ public class Dinamico {
         selecaoGuloso(atividades);
     }
 
-    static int selecaoRecursivo(Atividade[] a, int i, int j) {
+    private static int selecaoRecursivo(Atividade[] a, int i, int j) {
         boolean vazio = true;
         for (int k = i + 1; k < j; k++) {
             if (a[k].s >= a[i].f && a[k].f <= a[j].s) {
@@ -46,7 +46,7 @@ public class Dinamico {
         return 0;
     }
 
-    static void selecaoDinamico(Atividade[] a) {
+    private static void selecaoDinamico(Atividade[] a) {
         int[][] c = new int[a.length][a.length];
         int[][] s = new int[a.length][a.length];
 
@@ -70,7 +70,7 @@ public class Dinamico {
         System.out.println();
     }
 
-    static void impressaoDinamico(int[][] s, Atividade[] a, int i, int j) {
+    private static void impressaoDinamico(int[][] s, Atividade[] a, int i, int j) {
         int k = s[i][j];
 
         if (k != 0) {
@@ -80,18 +80,20 @@ public class Dinamico {
         }
     }
 
-    static void selecaoGuloso(Atividade[] a) {
-        //to do
+    private static void selecaoGuloso(Atividade[] a) {
+        Atividade ultimaAtividade = a[1];
         System.out.println("A" + 1 + ": " + a[1]);
         for (int i = 2; i < a.length - 1; i++) {
-            if (a[i].s >= a[i-1].f)
+            if (a[i].s >= ultimaAtividade.f){
                 System.out.println("A" + i + ": " + a[i]);
+                ultimaAtividade = a[i];
+            }
         }
     }
 
-    static void imprimeAtividades(Atividade[] a) {
-        for (int i = 0; i < a.length; i++) {
-            System.out.printf("%d\t%d\n", a[i].s, a[i].f);
+    private static void imprimeAtividades(Atividade[] a) {
+        for (Atividade anA : a) {
+            System.out.printf("%d\t%d\n", anA.s, anA.f);
         }
     }
 }
